@@ -7,8 +7,9 @@ const SearchBar = () => {
   const [suggestions, setSuggestions] = useState([]);
 
   const handleInputChange = (e) => {
-    const userInput = e.target.value.toLowerCase();
+    let userInput = e.target.value;
     setSearchTerm(userInput);
+    userInput = e.target.value.toLowerCase();
 
     if (userInput) {
       const filteredSuggestions = countries.filter(
