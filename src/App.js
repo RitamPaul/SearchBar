@@ -1,5 +1,5 @@
 import React from "react";
-import SearchBar from "./SearchBar"; // Import the SearchBar component
+import SearchBar from "./SearchBar";
 
 function App() {
   return (

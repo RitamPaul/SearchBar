@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import countries from "./countries.json"; // Assuming countries.json is in the src folder
-import "./SearchBar.css"; // Optional: External CSS for styling
+import countries from "./countries.json";
+import "./SearchBar.css";
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
